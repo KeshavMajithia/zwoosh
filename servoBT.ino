@@ -25,28 +25,34 @@ void loop() {
     int angleValue;
     switch (command) {
       case '1':
-        // Move the pan servo to 200 degrees
-        angleValue = 160;
+        // Move the pan servo to 35 degrees
+        angleValue = 35;
         panAngle = angleValue;
         panServo.write(panAngle);
         break;
       case '2':
-        // Move the tilt servo to 150 degrees
-        angleValue = 150;
-        tiltAngle = angleValue;
-        tiltServo.write(tiltAngle);
+        // Move the pan servo to 70 degrees
+        angleValue = 70;
+        panAngle = angleValue;
+        panServo.write(panAngle);
         break;
       case '3':
-        // Move the pan servo to 50 degrees
-        angleValue = 50;
+        // Move the pan servo to 105 degrees
+        angleValue = 105;
         panAngle = angleValue;
         panServo.write(panAngle);
         break;
       case '4':
-        // Move the tilt servo to 20 degrees
-        angleValue = 20;
-        tiltAngle = angleValue;
-        tiltServo.write(tiltAngle);
+        // Move the pan servo to 140 degrees
+        angleValue = 140;
+        panAngle = angleValue;
+        panServo.write(panAngle);
+        break;
+        case '5':
+        // Move the pan servo to 180 degrees
+        angleValue = 180;
+        panAngle = angleValue;
+        panServo.write(panAngle);
         break;
       default:
         // Handle other commands or errors here, if needed

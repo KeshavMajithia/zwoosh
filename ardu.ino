@@ -70,5 +70,3 @@ void stopServo() {
   // Stop the servo at the current angle
   // (do nothing here since the servo will maintain its current position)
 }
-
-khada lulla.ino
